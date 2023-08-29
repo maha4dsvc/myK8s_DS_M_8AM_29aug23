@@ -1,0 +1,10 @@
+STEPS TO CREATE PODS
+Execute the following commands
+●kubectl get nodes
+●kubectl create -f pod.yml
+●kubectl get pods
+●kubectl describe pods
+●kubectl get pods -o wide
+●kubectl get pods/hello-pod
+●kubectl get pods --all-namespaces
+●kubectl delete pods/hello-pod

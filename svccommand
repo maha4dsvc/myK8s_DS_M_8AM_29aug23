@@ -1,0 +1,10 @@
+Creating SERVICE
+$ kubectl create -f svc.yml
+$kubectl apply -f svc.yml
+$ kubectl get svc
+$ kubectl describe svc hello-svc
+
+The following commands list  Endpoint 
+
+$kubectl get ep
+$kubectl describe ep hello-svc

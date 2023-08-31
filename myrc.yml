@@ -6,11 +6,12 @@ spec:
    replicas: 3
    selector: 
      app: myjavaapp
-    
+     version: 2.6.2
    template:
      metadata:
        labels:
           app: myjavaapp
+          version: 2.6.2
           
      spec:
        containers:
